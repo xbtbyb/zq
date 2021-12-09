@@ -11,6 +11,7 @@ public class Demo1 {
         List<Student> stu = bizDao.getStudentInfo();
         for (Student s1:stu ) {
             System.out.println("id:"+s1.getId()+"    姓名："+s1.getName());
+            System.out.println(111111);
         }
 
     }
